@@ -1,0 +1,119 @@
+nav{
+ max-width: 1340px;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+ border-bottom: 1px solid rgba(0,0,0,0.05);
+ height: 66px;
+}
+
+nav img{
+    width: 70px;
+    height: 25px;
+    margin: 15px;
+}
+nav h2{
+    width: 23px;
+    height: 23px;
+}
+.NumBox{
+    max-width: 255px;
+    height: 36px;
+    margin: 0 auto;
+    display: flex;
+    gap: 11.25px;
+    text-align: center;
+}
+.NumBox .blue{
+    background-color: #0075ff;
+    border-radius: 54px;
+    color: black;
+}
+.NumBox h3{
+    height: 36px;
+    width: 36px;
+    padding-top: 7px;
+    color: #666666;
+    border-radius: 50px;
+}
+.finbox{
+    max-width: 255px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.finbox h1{
+    font-size: 24px;
+    margin-top: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+}
+.finbox p{
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section{
+    max-width: 416px;
+    height: 52px;
+    margin: 45px auto;
+}
+.section1{
+    max-width: 416px;
+    height: 52px;
+    margin: 25px auto;
+    display: flex;
+    border: 2px solid #0075ff;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.section1 h4{
+    color: #0075ff;
+    padding:0 8px;
+}
+.section2{
+    max-width: 416px;
+    height: 52px;
+    margin: 25px auto;
+    border: 2px solid rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+.section2 h4{
+    color: black;
+    padding: 0 8px;
+    opacity: .4;
+}
+h5{
+    color: #000;
+    opacity: .4;
+    font-size: 14px;
+    font-weight: 500;
+}
+.About{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 172px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #efefef;
+
+    
+}
+.About h4{
+   text-align: center;
+   margin-right:  12px;
+}
+.button{
+    background-color: #0075ff;
+    border-radius: 10px;
+}
+.button h4{
+    color: white;
+    text-align: center ;
+    padding: 20px;
+}
+
